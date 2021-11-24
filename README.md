@@ -12,7 +12,7 @@ I set out a second conjecture: For any number n, if it's odd, apply n+1 and if i
 
 If n is odd, n+1 will always make it even.
 If n is even, dividing it by 2 will make it odd at some point.
-So for any number, if you keep applying the second conjecture, you will get the same outcome as Collatz Conjecture. 
+So for any number, if you keep applying the second conjecture, you will get the same outcome as Collatz Conjecture, ie it will reach 1.
 
 To me, this second conjecture looks true.
 
