@@ -12,6 +12,8 @@ I set out a second conjecture: For any number n, if it's odd, apply n+1 and if i
 
 If n is odd, n+1 will always make it even.
 If n is even, dividing it by 2 will make it odd at some point.
-So for any number, if you keep applying the second conjecture, you will get the same outcome as Collatz Conjecture.
+So for any number, if you keep applying the second conjecture, you will get the same outcome as Collatz Conjecture. 
+
+To me, this second conjecture is definitely true for all numbers.
 
 If we agree with above and accept the second conjecture as true, the first conjecture must be true because the possible numbers for 3n+1 is a subset of all possible numbers for n+1 (because n+1 is basically is the list of all even numbers if n is the list of all odd numbers). 
