@@ -16,6 +16,6 @@ So for any number, if you keep applying the second conjecture, you will get the 
 
 This second conjecture is true.
 
-If we agree with above and accept the second conjecture as true, the first conjecture must be true because the possible numbers for 3n+1 is a subset of all possible numbers for n+1 (because n+1 is basically is the list of all even numbers if n is the list of all odd numbers). In short, if the full set follows the conjecture, so would a subset of the full set.
+If we agree with above and accept the second conjecture as true, the first conjecture must be true because the possible numbers for 3n+1 is a subset of all possible numbers for n+1 (because n+1 basically is the list of all even numbers if n is the list of all odd numbers). In short, if the full set follows the conjecture, so would a subset of the full set.
 
 Learnt about this problem from the prime minister of my country Singapore. The news article is here: https://www.straitstimes.com/singapore/pm-lee-spending-some-vacation-time-on-the-collatz-conjecture-5-things-about-the-unsolved
