@@ -1,6 +1,6 @@
 # Collatz
 
-This is my solution to the Collatz Conjecture from a non-mathematician point of view. Wrote this on 24 Nov Singapore time. 
+This is my solution to the Collatz Conjecture from a non-mathematician point of view. Wrote this on 24 Nov 2021 Singapore time. 
 
 # Summary
 
