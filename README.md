@@ -8,7 +8,7 @@ Collatz Conjecture says for any number n, if it's odd, apply 3n+1 and if it's ev
 
 # My Simple Thoughts
 
-I set out a second conjecture: For any number n equal or greater than 3, if it's odd, apply n+1 and if it's even, divide by 2 and eventually, you will get 4,2,1 as the 3 numbers in a continuing series.
+I set out a second conjecture: For any number n equal or greater than 3, if it's odd, apply n+1 and if it's even, divide by 2 and eventually, you will eventually get a continuing series of the same numbers.
 
 If n is odd, n+1 will always make it even.
 If n is even, dividing it by 2 will make it odd at some point.
