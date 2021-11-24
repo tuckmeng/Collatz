@@ -4,7 +4,7 @@ This is my solution to the Collatz Conjecture from a non-mathematician point of 
 
 # Summary
 
-Collatz Conjecture says for any number n, if it's odd, apply 3n+1 and if it's even, divide by 2 and eventually, you will get a continuing series of the same numbers. It asks you to prove it for all whole numbers.
+Collatz Conjecture says for any number n, if it's odd, apply 3n+1 and if it's even, divide by 2 and eventually, you will get a continuing series of the same numbers and it will reach 1. It asks you to prove it for all whole numbers. See https://en.m.wikipedia.org/wiki/Collatz_conjecture
 
 # My Simple Thoughts
 
