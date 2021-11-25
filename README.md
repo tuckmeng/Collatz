@@ -18,4 +18,8 @@ This second conjecture is true.
 
 If we agree with above and accept the second conjecture as true, the first conjecture must be true because the possible numbers for 3n+1 is a subset of all possible numbers for n+1 (because n+1 basically is the list of all even numbers if n is the list of all odd numbers). The difference between the 2 conjectures is 2n which is an even number regardless of the value of n. When you add an even number to a second number, the final number will follow the odd/even pattern of the second number.
 
+To put it another way,
+
+As second conjecture is true, conjecture when you change n+1 to n+1+evennumber is true and hence when you change conjecture to n+1+2n which is the first conjecture, it is true since 2n is just a subset of even numbers.
+
 Learnt about this problem from the prime minister of my country Singapore. The news article is here: https://www.straitstimes.com/singapore/pm-lee-spending-some-vacation-time-on-the-collatz-conjecture-5-things-about-the-unsolved
