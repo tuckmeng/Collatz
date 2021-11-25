@@ -20,6 +20,6 @@ If we agree with above and accept the second conjecture as true, the first conje
 
 To put it another way,
 
-As second conjecture is true, conjecture when you change n+1 to n+1+evennumber is true for every possible constant even number and hence when you change conjecture to n+1+2n which is the first conjecture, it is true since 2n is a subset of the even number. Since 3n+1 always give even number, effectively after every application of 3n+1 you must divide by 2 continuously until you get an odd number. Minimally you are only adding a little more than n in the best case in the series.
+As second conjecture is true, conjecture when you change n+1 to n+1+evennumber is true for every possible constant even number and hence when you change conjecture to n+1+2n which is the first conjecture, it is true since 2n is a subset of the possible even numbers. Since 3n+1 always give even number, effectively after every application of 3n+1 you must divide by 2 continuously until you get an odd number. Minimally you are only adding a little more than n in the best case in the series.
 
 Learnt about this problem from the prime minister of my country Singapore. The news article is here: https://www.straitstimes.com/singapore/pm-lee-spending-some-vacation-time-on-the-collatz-conjecture-5-things-about-the-unsolved
