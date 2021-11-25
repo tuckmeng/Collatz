@@ -1,6 +1,6 @@
 # Collatz
 
-This is my solution to the Collatz Conjecture from a non-mathematician point of view. Wrote this on 24 Nov 2021 Singapore time, revised on 25 Nov.
+This is my solution to the Collatz Conjecture from a non-mathematician point of view. Wrote this on 24 Nov 2021 Singapore time, revised on 25 Nov 2021.
 
 # Summary
 
@@ -22,6 +22,6 @@ To put it another way,
 
 As second conjecture is true, conjecture when you change n+1 to n+1+evennumber is true for every possible constant even number and hence when you change conjecture to n+1+2n which is the first conjecture, it is true since 2n is a subset of the possible even numbers. Since 3n+1 always give even number, effectively after every application of 3n+1 you must divide by 2 continuously until you get an odd number. Minimally you are only adding a little more than 1.5n in the best case in the series but you are always dividing by 2 one time or more, so the numbers in the series will always decrease in the long run because you are dividing more than you are applying 3n+1. That is how the series goes down to 1.
 
-There should be another way to work this conjecture out based on probability of odd or even numbers in every calculation and string the multiple probabilities together as the series increases. Will try that when I'm bored with work.
+There should be another way to work this conjecture out based on probability of odd/even numbers and next higher/lower numbers in every calculation and string the multiple probabilities together as the series increases. Will try that when I'm bored with work.
 
 Learnt about this problem from the prime minister of my country Singapore. The news article is here: https://www.straitstimes.com/singapore/pm-lee-spending-some-vacation-time-on-the-collatz-conjecture-5-things-about-the-unsolved
