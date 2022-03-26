@@ -4,7 +4,7 @@ Modified minimal linux live distro https://minimal.idzona.com/#download to use k
 
 # Use
 
-Download Qemu for your platform from https://www.qemu.org/download/ and run command qemu-system-x86_64 -boot d -cdrom xxx.iso where xxx.iso is your iso file.
+Download Qemu for your platform from https://www.qemu.org/download/ and run command qemu-system-x86_64 -boot d -cdrom xxx.iso where xxx.iso is your iso file. Choose option 0 for VGA screen.
 
 # Future Modifications
 
