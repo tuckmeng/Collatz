@@ -1,27 +1,15 @@
-# Collatz
+# Minimal Linux Distro
 
-This is my solution to the Collatz Conjecture from a non-mathematician point of view. Wrote this on 24 Nov 2021 Singapore time, revised on 25 Nov 2021.
+Modified minimal linux live distro https://minimal.idzona.com/#download to use kernel 5.16.12. Isolinux and binaries are currently 2019 version at minimal linux. Original distro at minimal_linux_live_15-Dec-2019_64-bit_bios.iso in https://github.com/ivandavidov/minimal/releases. The iso file is checked at https://www.virustotal.com/gui/file/c96ac0632eb1bf000ed67b7fddc5870b3376aacd159682cd059ed7094dadd5bd?nocache=1 to make sure that it is free from malware.
 
-# Summary
+# Use
 
-Collatz Conjecture says for any number n, if it's odd, apply 3n+1 and if it's even, divide by 2 and eventually, you will get a continuing series of the same numbers and it will reach 1. It asks you to prove it for all whole numbers. See https://en.m.wikipedia.org/wiki/Collatz_conjecture
+Download Qemu for your platform from https://www.qemu.org/download/ and run command qemu-system-x86_64 -boot d -cdrom xxx.iso where xxx.iso is your iso file.
 
-# My Simple Thoughts
+# Future Modifications
 
-I set out a second conjecture: For any number n, if it's odd, apply n+1 and if it's even, divide by 2 and eventually, you will eventually get a continuing series of the same numbers.
+a. To upgrade the binary packages and harden the distro further by removing functionality from the distro.
 
-If n is odd, n+1 will always make it even.
-If n is even, dividing it by 2 will make it odd at some point.
-So for any number, if you keep applying the second conjecture, you will get the same outcome as Collatz Conjecture, ie it will reach 1.
+b. Replace binaries with faster running equivalents. There are many written in languages other than c++ with improved algorithms, just not very well known yet. 
 
-This second conjecture is true.
-
-If we agree with above and accept the second conjecture as true, the first conjecture must be true because the possible numbers for 3n+1 is a subset of all possible numbers for n+1 (because n+1 basically is the list of all even numbers if n is the list of all odd numbers). The difference between the 2 conjectures is 2n which is an even number regardless of the value of n. When you add an even number to a second number, the final number will follow the odd/even pattern of the second number.
-
-To put it another way,
-
-As second conjecture is true, conjecture when you change n+1 to n+1+evennumber is true for every possible constant even number and hence when you change conjecture to n+1+2n which is the first conjecture, it is true since 2n is a subset of the possible even numbers. Since 3n+1 always give even number, effectively after every application of 3n+1 you must divide by 2 continuously until you get an odd number. Minimally you are only adding a little more than 1.5n in the best case in the series but you are always dividing by 2 one time or more, so the numbers in the series will always decrease in the long run because you are dividing more than you are applying 3n+1. That is how the series goes down to 1.
-
-There should be another way to work this conjecture out based on probability of odd/even numbers and next higher/lower numbers in every calculation and string the multiple probabilities together as the series increases. Will try that when I'm bored with work.
-
-Learnt about this problem from the prime minister of my country Singapore. The news article is here: https://www.straitstimes.com/singapore/pm-lee-spending-some-vacation-time-on-the-collatz-conjecture-5-things-about-the-unsolved
+c. If it gets big enough, to publish it as an official linux distro.
