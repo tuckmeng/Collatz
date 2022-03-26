@@ -13,3 +13,5 @@ a. To upgrade the binary packages and harden the distro further by removing func
 b. Replace binaries with faster running equivalents. There are many written in languages other than c++ with improved algorithms, just not very well known yet. 
 
 c. If it gets big enough, to publish it as an official linux distro.
+
+The file is less than 10 MB but it can be shrunk further to be like an appliance OS. Or it can be increased to add new functionality. But definitely small enough to use in a thumb drive.
